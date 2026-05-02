@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KAICHON SHOP</title>
+
+<style>
+:root{
+  --bg:#0f1115;
+  --card:#171a21;
+  --accent:#f7b500;
+  --text:#e6e6e6;
+  --muted:#9aa3ad;
+}
+
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:var(--bg);
+  color:var(--text);
+}
+
+header{
+  padding:20px;
+  background:#12151b;
+  border-bottom:2px solid var(--accent);
+}
+
+.header-box{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:15px;
+}
+
+.logo{
+  width:70px;
+  height:70px;
+  object-fit:contain;
+  border-radius:10px;
+}
+
+header h1{
+  margin:0;
+  color:var(--accent);
+}
+
+header p{
+  margin:0;
+  color:var(--muted);
+  font-size:14px;
+}
+
+.container{
+  padding:20px;
+  max-width:1100px;
+  margin:auto;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:18px;
+}
+
+.card{
+  background:var(--card);
+  border-radius:12px;
+  overflow:hidden;
+  border:1px solid #2a2f38;
+  transition:.2s;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+}
+
+.card img{
+  width:100%;
+  height:150px;
+  object-fit:cover;
+}
+
+.card-body{
+  padding:12px;
+  text-align:center;
+}
+
+.code{
+  font-size:12px;
+  color:var(--muted);
+}
+
+.price{
+  color:var(--accent);
+  font-size:18px;
+  margin:8px 0;
+}
+
+.contact-box{
+  margin-top:30px;
+  background:#171a21;
+  padding:20px;
+  text-align:center;
+  border-radius:10px;
+  border:1px solid #2a2f38;
+}
+
+.discord-btn{
+  display:inline-block;
+  margin-top:10px;
+  padding:10px 15px;
+  background:#5865F2;
+  color:#fff;
+  text-decoration:none;
+  border-radius:6px;
+  font-weight:bold;
+}
+
+.discord-btn:hover{
+  background:#6d78ff;
+}
+
+footer{
+  text-align:center;
+  padding:15px;
+  color:var(--muted);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="header-box">
+    <!-- 🔥 เปลี่ยนลิงก์โลโก้ตรงนี้ -->
+    <img src="https://img2.pic.in.th/fefe.png" class="logo">
+
+    <div>
+      <h1>KAICHON SHOP</h1>
+      <p>เลือกสินค้า แล้วติดต่อ Discord เพื่อสั่งซื้อ</p>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="grid">
+
+    <div class="card">
+      <img src="https://img1.pic.in.th/images/----------68fec0adcbb5461d.png">
+      <div class="card-body">
+        <h3>Huya biker jacket 30DAY</h3>
+        <div class="code">CODE</div>
+        <div class="price">฿20</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://img1.pic.in.th/images/-----------3.png">
+      <div class="card-body">
+        <h3>Huya T-shirt</h3>
+        <div class="code">CODE</div>
+        <div class="price">฿60</div>
+      </div>
+    </div>
+
+        <div class="card">
+      <img src="https://img1.pic.in.th/images/-----------4.png">
+      <div class="card-body">
+        <h3>ถุงมือBlue thunder</h3>
+        <div class="code">CODE</div>
+        <div class="price">฿520</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://img1.pic.in.th/images/PubgGCOIN-1.png">
+      <div class="card-body">
+        <h3>100 G-COIN</h3>
+        <div class="code">CODE</div>
+        <div class="price">฿28</div>
+      </div>
+    </div>
+
+        <div class="card">
+      <img src="https://img1.pic.in.th/images/PubgGCOIN-1.png">
+      <div class="card-body">
+        <h3>11200 G-COIN</h3>
+        <div class="code">CODE</div>
+        <div class="price">฿2820</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://img2.pic.in.th/-----------5.png">
+      <div class="card-body">
+        <h3>steam wallet 50</h3>
+        <div class="code">CODE</div>
+        <div class="price">฿49</div>
+      </div>
+    </div>
+    
+       <div class="card">
+      <img src="https://img2.pic.in.th/-----------5.png">
+      <div class="card-body">
+        <h3>steam wallet 100</h3>
+        <div class="code">CODE</div>
+        <div class="price">฿98</div>
+      </div>
+    </div>
+
+           <div class="card">
+      <img src="https://img2.pic.in.th/-----------5.png">
+      <div class="card-body">
+        <h3>steam wallet 200</h3>
+        <div class="code">CODE</div>
+        <div class="price">฿195</div>
+      </div>
+    </div>
+
+               <div class="card">
+      <img src="https://img2.pic.in.th/-----------5.png">
+      <div class="card-body">
+        <h3>steam wallet 350</h3>
+        <div class="code">CODE</div>
+        <div class="price">฿340</div>
+      </div>
+    </div>
+    
+    <div class="card">
+      <img src="https://img2.pic.in.th/-----------5.png">
+      <div class="card-body">
+        <h3>steam wallet 1000</h3>
+        <div class="code">CODE</div>
+        <div class="price">฿970</div>
+      </div>
+    </div>
+
+       <div class="card">
+      <img src="https://media.discordapp.net/attachments/1497898152865304727/1497898297011208294/678613846_1593914709409057_7620808038981436914_n.png?ex=69f71aff&is=69f5c97f&hm=a87a00c8c08190595bfe45d710a2a082530d10520e711f1620849254a17d9f86&=&format=webp&quality=lossless&width=1382&height=864">
+      <div class="card-body">
+        <h3>ปรับภาพดินน้ำมัน pubg ไม่ยุ่งกับไฟล์เกม ไม่ใช่NVIDIA Profile Inspecto</h3>
+        <div class="code">เเอดมินสอน</div>
+        <div class="price">฿69</div>
+      </div>
+    </div>
+    
+
+  </div>
+
+  <div class="contact-box">
+    <h2>สั่งซื้อสินค้า</h2>
+    <p>แคปหน้าสินค้า + แจ้งโค้ดสินค้า แล้วติดต่อ Discord</p>
+    
+    <a class="discord-btn" href="https://discord.gg/bWbmWry9nx" target="_blank">
+      ติดต่อผ่าน Discord
+    </a>
+  </div>
+
+</div>
+
+<footer>
+  <p>© KAICHON SHOP</p>
+</footer>
+
+</body>
+</html>
